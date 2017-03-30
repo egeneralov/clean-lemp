@@ -2,8 +2,10 @@
 apt-get clean;
 apt-get update;
 apt-get upgrade;
-apt-get install -y curl cron > /dev/null 2>&1;
-curl https://get.acme.sh | sh;
+echo "Installing dependences";
+apt-get install -y curl cron netcat > /dev/null 2>&1;
+echo "installing acme.sh - let`s encrypt client";
+curl https://get.acme.sh | sh > /dev/null 2>&1;
 cat <<< 'deb http://packages.dotdeb.org jessie all' >> /etc/apt/sources.list;
 curl https://www.dotdeb.org/dotdeb.gpg | apt-key add - ;
 apt-get update;
