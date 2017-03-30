@@ -1,8 +1,6 @@
 > I want to share my knowledge and hacks with world.
-
-        All scripts are tested on clean debian installations.
-
-        **All scripts must be run as root. SUDO can be incorrect.**
+> All scripts are tested on clean debian installations.
+> **All scripts must be run as root. SUDO can be incorrect.**
 
 ###### License
 
