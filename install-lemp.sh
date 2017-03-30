@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Update apt cache & upgrade system";
 apt-get clean;
 apt-get update;
 apt-get upgrade;
