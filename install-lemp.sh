@@ -9,7 +9,7 @@ apt-get upgrade > /dev/null 2>&1;
 echo "Installing dependences";
 apt-get install -y curl cron netcat > /dev/null 2>&1;
 
-echo "installing acme.sh - let`s encrypt client";
+echo "installing acme.sh - lets encrypt client";
 curl -s https://get.acme.sh | sh > /dev/null 2>&1;
 
 echo "Adding repository dotdeb.org";
